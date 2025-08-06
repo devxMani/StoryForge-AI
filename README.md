@@ -1,17 +1,55 @@
-# StoryForge AI: An AI-Powered Choose Your Own Adventure Platform
-StoryForge AI is a full-stack web application that empowers users to craft, explore, and personalize interactive stories—powered by artificial intelligence. Built with a modern tech stack (FastAPI + React), this app offers dynamic, branching adventures where every choice shapes the narrative.
+# StoryForge AI
 
-Key Features:
+StoryForge AI is an interactive web application where users can create and explore AI-generated, personalized "choose your own adventure" stories. Powered by FastAPI (Python) on the backend and React on the frontend, the platform uses advanced language models to dynamically build branching narratives based on user choices.
 
-🌟 AI-driven story generation for unique, unpredictable adventures.
+## Tech Stack
 
-💡 Intuitive React-based UI for immersive reading and decision-making.
+- **Backend:** FastAPI (Python), OpenAI API integration, JWT authentication
+- **Frontend:** React (JavaScript/TypeScript), Chakra UI/Material UI
+- **Database:** SQLite or PostgreSQL with SQLAlchemy/Tortoise ORM
+- **Other:** Docker, GitHub Actions, dotenv for config
 
-🔐 User authentication and story saving.
+## Features
 
-🛠️ Scalable FastAPI backend with OpenAI integration.
+- AI-driven, real-time story and plot generation
+- Choose-your-own-adventure interactive story experience
+- Secure user registration and login
+- Story saving and replayability
+- Clean, modern and responsive UI
 
-📈 Ready for expansion: add your own story themes, difficulty levels, or multiplayer interaction!
+## Getting Started
 
-Tech Stack:
-FastAPI · React · Python · OpenAI API · JWT Auth · Docker
+### 1. Clone the repository
+
+
+### 2. Set up the backend
+
+- Navigate to the `/backend` directory.
+- Install dependencies:
+- Set up your `.env` file with OpenAI and JWT secrets.
+- Start the FastAPI server:
+- Set up your `.env` file with OpenAI and JWT secrets.
+- Start the FastAPI server:
+
+### 3. Set up the frontend
+
+- Navigate to the `/frontend` directory.
+- Install dependencies:
+- Start the React app:
+
+### 4. Usage
+
+- Register a new account and begin your interactive story adventure.
+- Make choices to direct your narrative—every decision creates a unique plot.
+- Save and revisit your stories anytime.
+
+## Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request.
+
+## Acknowledgements
+
+- OpenAI for LLM APIs
+- FastAPI & React communities for frameworks and docs
+
+---
